@@ -124,6 +124,16 @@
 .side-bar .active a i {
 	color: #127b8e !important;
 }
+
+.side-bar li.active {
+	background: #127b8e;
+}
+.side-bar li.active a,
+.side-bar li.active a i {
+	color: #fff !important;
+}
+
+
 .side-bar ul .active:hover {
 	background: transparent;
 }

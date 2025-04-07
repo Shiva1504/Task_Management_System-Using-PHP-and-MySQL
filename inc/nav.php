@@ -11,7 +11,7 @@
 				
 			?>
 			<!-- Employees Nav bar -->
-				<ul>
+				<ul id="navList">
 				<li>
 					<a href="#">
 						<i class="fa fa-tachometer" aria-hidden="true"></i>
@@ -47,7 +47,7 @@
 
 			<?php } else { ?>
 				<!-- Admins Nav Bar -->
-				<ul>
+				<ul id="navList">
 				<li>
 					<a href="#">
 						<i class="fa fa-tachometer" aria-hidden="true"></i>
