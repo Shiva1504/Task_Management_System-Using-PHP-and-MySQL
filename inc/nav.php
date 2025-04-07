@@ -1,17 +1,15 @@
 <nav class="side-bar">
 			<div class="user-p">
-				<img src="img/profile_icon.png" alt="Profile Picture">
+				<img src="img/profile_icon.png" >
 				<h4>@<?=$_SESSION['username']?></h4>
 			</div>
+			
+			<?php 
 
-			<?php
-
-				if($_SESSION['role'] == "employee"){
-
-				
-			?>
-			<!-- Employees Nav bar -->
-				<ul id="navList">
+               if($_SESSION['role'] == "employee"){
+			 ?>
+			 <!-- Employee Navigation Bar -->
+			<ul id="navList">
 				<li>
 					<a href="index.php">
 						<i class="fa fa-tachometer" aria-hidden="true"></i>
@@ -33,10 +31,9 @@
 				<li>
 					<a href="notifications.php">
 						<i class="fa fa-bell" aria-hidden="true"></i>
-						<span>Notificaton</span>
+						<span>Notifications</span>
 					</a>
 				</li>
-
 				<li>
 					<a href="logout.php">
 						<i class="fa fa-sign-out" aria-hidden="true"></i>
@@ -44,17 +41,16 @@
 					</a>
 				</li>
 			</ul>
-
-			<?php } else { ?>
-				<!-- Admins Nav Bar -->
-				<ul id="navList">
+		<?php }else { ?>
+			<!-- Admin Navigation Bar -->
+            <ul id="navList">
 				<li>
 					<a href="index.php">
 						<i class="fa fa-tachometer" aria-hidden="true"></i>
 						<span>Dashboard</span>
 					</a>
 				</li>
-				<li class= "active">
+				<li>
 					<a href="user.php">
 						<i class="fa fa-users" aria-hidden="true"></i>
 						<span>Manage Users</span>
@@ -73,13 +69,11 @@
 					</a>
 				</li>
 				<li>
-				<li>
 					<a href="logout.php">
 						<i class="fa fa-sign-out" aria-hidden="true"></i>
 						<span>Logout</span>
 					</a>
 				</li>
 			</ul>
-
-			<?php } ?>
+		<?php } ?>
 		</nav>
