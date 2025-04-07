@@ -1,6 +1,6 @@
 <?php 
 session_start();
-if (isset($_POST['username']) && isset($_POST['password'])) {
+if (isset($_POST['user_name']) && isset($_POST['password'])) {
 	include "../DB_connection.php";
 
     function validate_input($data) {
@@ -10,7 +10,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 	  return $data;
 	}
 
-	$user_name = validate_input($_POST['username']);
+	$user_name = validate_input($_POST['user_name']);
 	$password = validate_input($_POST['password']);
 
 	if (empty($user_name)) {
