@@ -522,3 +522,82 @@ select option {
 .delete-btn:hover {
 	background: linear-gradient(to right, #f9d423, #ff4e50);
 }
+
+/* Login Page Styling */
+body.login-body {
+	background-color: #11141a;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Login Card */
+  form.shadow.p-4 {
+	background: #1f232b;
+	color: #fff;
+	border-radius: 20px;
+	width: 100%;
+	max-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 255, 255, 0.08);
+	padding: 40px 30px;
+  }
+  
+  /* Login Title */
+  form h3.display-4 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #00ffe7;
+	text-align: center;
+	font-weight: 600;
+  }
+  
+  /* Labels */
+  form label {
+	color: #ccc;
+	font-size: 14px;
+	margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  form input.form-control {
+	background-color: #2b2f38;
+	border: 1px solid #00ffe7;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 15px;
+  }
+  
+  form input.form-control:focus {
+	background-color: #2b2f38;
+	border-color: #00fff7;
+	box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+	color: #fff;
+  }
+  
+  /* Submit Button */
+  form button.btn.btn-primary {
+	background: linear-gradient(to right, #00c6ff, #0072ff);
+	border: none;
+	border-radius: 12px;
+	padding: 12px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+	box-shadow: 0 0 12px #0072ff50;
+	transition: all 0.3s ease;
+  }
+  
+  form button.btn.btn-primary:hover {
+	background: linear-gradient(to right, #0072ff, #00c6ff);
+	box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+  }
+  
+  /* Alerts */
+  .alert {
+	font-size: 14px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+  }
+  
