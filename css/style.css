@@ -20,7 +20,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	color: #f1f1f1;
+	/* color: #f1f1f1; */
   }
   
   body {
@@ -416,3 +416,109 @@ select option {
     color: #ffffff; /* white text */
 }
 
+.task-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	margin: 25px 0 15px;
+	align-items: center;
+}
+
+.task-filters a {
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 20px;
+	border-radius: 25px;
+	background: #222;
+	transition: all 0.3s ease;
+	font-size: 14px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.task-filters a:hover {
+	background: #00c6ff;
+	color: #fff;
+	box-shadow: 0 0 12px #00c6ff88;
+}
+
+.task-filters a.btn-primary {
+	background: linear-gradient(to right, #00c6ff, #0072ff);
+	font-weight: bold;
+	box-shadow: 0 0 15px #0072ff88;
+}
+/* Task Filters Buttons */
+.task-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	margin-bottom: 20px;
+}
+
+.task-filters a {
+	text-decoration: none;
+	padding: 10px 16px;
+	border-radius: 20px;
+	background: linear-gradient(to right, #00c6ff, #0072ff);
+	color: white;
+	font-weight: 500;
+	transition: background 0.3s;
+	box-shadow: 0 4px 12px rgba(0, 114, 255, 0.3);
+}
+
+.task-filters a:hover {
+	background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+/* Table Styling */
+.main-table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #2a2d35;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.main-table th,
+.main-table td {
+	text-align: center;
+	padding: 14px 12px;
+	font-size: 14px;
+	color: #fff;
+	border-top: 1px solid #3a3a3a;
+}
+
+.main-table th {
+	background-color: #1f222a;
+	font-weight: 600;
+}
+
+/* Buttons in Action Column */
+.edit-btn,
+.delete-btn {
+	padding: 6px 14px;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin: 0 5px;
+	display: inline-block;
+	font-size: 13px;
+	transition: 0.3s ease;
+	box-shadow: 0 4px 10px rgba(0, 114, 255, 0.2);
+}
+
+.edit-btn {
+	background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.edit-btn:hover {
+	background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.delete-btn {
+	background: linear-gradient(to right, #ff4e50, #f9d423);
+}
+
+.delete-btn:hover {
+	background: linear-gradient(to right, #f9d423, #ff4e50);
+}

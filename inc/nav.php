@@ -54,7 +54,7 @@
 					<a href="user.php">
 						<i class="fa fa-users" aria-hidden="true"></i>
 						<span>Manage Users</span>
-					</a>s
+					</a>
 				</li>
 				<li>
 					<a href="create_Task.php">

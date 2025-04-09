@@ -43,14 +43,14 @@ if (isset($_SESSION['role']) && isset($_SESSION['id']) && $_SESSION['role'] == "
 	<div class="body">
 		<?php include "inc/nav.php" ?>
 		<section class="section-1">
-			<h4 class="title-2">
-				<a href="create_task.php" class="btn">Create Task</a>
-				<a href="tasks.php?due_date=Due Today">Due Today</a>
-				<a href="tasks.php?due_date=Overdue">Overdue</a>
-				<a href="tasks.php?due_date=No Deadline">No Deadline</a>
-				<a href="tasks.php">All Tasks</a>
- 
-			</h4>
+		<div class="task-filters">
+	<a href="create_task.php" class="btn-primary">Create Task</a>
+	<a href="tasks.php?due_date=Due Today">Due Today</a>
+	<a href="tasks.php?due_date=Overdue">Overdue</a>
+	<a href="tasks.php?due_date=No Deadline">No Deadline</a>
+	<a href="tasks.php">All Tasks</a>
+</div>
+
          <h4 class="title-2"><?=$text?> (<?=$num_task?>)</h4>
 			<?php if (isset($_GET['success'])) {?>
       	  	<div class="success" role="alert">
