@@ -3,7 +3,7 @@
 
 <header class="header glass-header">
 	<h2 class="u-name">
-		Task <b>Pro</b>
+		Pro <b>Tasker</b>
 		<label for="checkbox" class="nav-toggle">
 			<i id="navbtn" class="fa fa-bars" aria-hidden="true"></i>
 		</label>
