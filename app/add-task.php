@@ -19,15 +19,15 @@ if (isset($_POST['title']) && isset($_POST['description']) && isset($_POST['assi
 
 	if (empty($title)) {
 		$em = "Title is required";
-	    header("Location: ../create_task.php?error=$em");
+	    header("Location: ../create_Task.php?error=$em");
 	    exit();
 	}else if (empty($description)) {
 		$em = "Description is required";
-	    header("Location: ../create_task.php?error=$em");
+	    header("Location: ../create_Task.php?error=$em");
 	    exit();
 	}else if ($assigned_to == 0) {
 		$em = "Select User";
-	    header("Location: ../create_task.php?error=$em");
+	    header("Location: ../create_Task.php?error=$em");
 	    exit();
 	}else {
     
@@ -42,19 +42,19 @@ if (isset($_POST['title']) && isset($_POST['description']) && isset($_POST['assi
 
 
        $em = "Task created successfully";
-	    header("Location: ../create_task.php?success=$em");
+	    header("Location: ../create_Task.php?success=$em");
 	    exit();
 
     
 	}
 }else {
    $em = "Unknown error occurred";
-   header("Location: ../create_task.php?error=$em");
+   header("Location: ../create_Task.php?error=$em");
    exit();
 }
 
 }else{ 
    $em = "First login";
-   header("Location: ../create_task.php?error=$em");
+   header("Location: ../create_Task.php?error=$em");
    exit();
 }
