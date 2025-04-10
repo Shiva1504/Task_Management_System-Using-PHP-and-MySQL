@@ -110,7 +110,7 @@ project/
 
 ## 📷 Screenshots
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](img/Screenshot 2025-04-10 142638.png)
 ![Create Task](screenshots/create-task.png)
 
 ---
