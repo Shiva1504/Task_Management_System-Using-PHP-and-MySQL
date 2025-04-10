@@ -1,9 +1,9 @@
 <?php  
 
 $sName = "localhost";
-$uName = "root";
-$pass  = "";
-$db_name = "task_management_db";
+$uName = "Enter You Username of database";
+$pass  = "Enter your Password of database";
+$db_name = "Enter your database name";
 
 try {
     $conn = new PDO("mysql:host=localhost;port=3307;dbname=task_management_db", $uName, $pass);
