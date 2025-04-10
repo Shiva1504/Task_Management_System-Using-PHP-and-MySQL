@@ -5,6 +5,9 @@ ProTasker is a role-based task management system built with **PHP** and **MySQL*
 
 ---
 
+Website is Live : [https://protasker.ct.ws/](https://protasker.ct.ws/)
+
+
 ## 🚀 Features
 
 - ✅ **User Authentication**  
@@ -33,7 +36,6 @@ ProTasker is a role-based task management system built with **PHP** and **MySQL*
 - **Frontend**: HTML, CSS, Bootstrap  
 - **Backend**: PHP  
 - **Database**: MySQL  
-- **Server**: Deployed on [InfinityFree](https://infinityfree.net)
 
 ---
 
@@ -116,9 +118,6 @@ project/
 ## 📩 Contact
 
 If you have questions or want to contribute:
-- 💼 [Your LinkedIn](https://linkedin.com/in/yourname)
-- 💻 [Your GitHub](https://github.com/yourusername)
-
----
+dasarisambasivanaidu7@gmail.com
 
 **ProTasker** – Simplify Task Management. Maximize Productivity.
