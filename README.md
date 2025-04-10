@@ -109,9 +109,14 @@ project/
 ---
 
 ## 📷 Screenshots
-
+## Login Page
+![Login](img/Screenshot2025-04-10142733.png)
+## Admin Dashboard
 ![Dashboard](img/Screenshot2025-04-10142638.png)
-![Create Task](screenshots/create-task.png)
+## Admin Create Task
+![Create Task](img/Screenshot2025-04-10142709.png)
+## Employee Dashboard
+![Dashboard](img/Screenshot2025-04-10142801.png)
 
 ---
 
